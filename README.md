@@ -2,70 +2,37 @@ San Jose Sea Level Rise Analysis (GIS Project)
 Author: Guo On Chu
 Tools Used: QGIS • NOAA Sea Level Rise Data • Google Satellite Basemap
 
-Files Included
-San Francsico.fit.GIS.pdf — Final exported GIS map
-San Francsico.fit.GIS — Project folder
-San Francsico.fit.pdf — Written report
-San Francsico.fit — Supporting project files
+# San Jose Sea Level Rise Analysis (GIS Project)
 
-Project Overview
-This GIS project analyzes the projected impacts of sea level rise in the San Jose / South Bay region using NOAA flood raster data.
-Flooding was modeled under three scenarios:
-* 3 ft rise
-* 5 ft rise
-* 10 ft rise
-Each scenario was visualized in QGIS to understand which neighborhoods, cities, and shorelines are at future risk.
+## Overview
+This project analyzes the projected impact of sea level rise in the San Jose / South Bay region using geospatial data.  
+Flood risk was modeled under multiple scenarios to understand which areas are most vulnerable.
 
-Data & GIS Methods
-Data Sources
-* NOAA Sea Level Rise raster dataset
-* Google Satellite basemap
-* City boundary shapefiles
+## Data
+- NOAA Sea Level Rise raster dataset  
+- City boundary shapefiles  
+- Google Satellite basemap  
 
-GIS Workflow
-1: Loaded DEM + water-level rasters into QGIS
-2: Extracted 3ft, 5ft, and 10ft flood zones
-3:Applied symbology for each layer
-4: Overlaid flood layers on satellite imagery
-5: Added city boundary polygons and labels
-6: Exported final maps
-7: Wrote analysis report
+## Methods
+- Processed raster and vector data in QGIS  
+- Modeled flood scenarios under 3ft, 5ft, and 10ft sea level rise  
+- Performed spatial overlay and visualization  
+- Generated maps to analyze geographic risk patterns  
 
-Key Results
-3 ft Sea Level Rise
-* Flooding limited to wetlands and ultra-low elevations
-* Minimal impact to developed areas
+## Results
+- **3 ft rise:** Flooding primarily limited to wetlands and low-elevation areas  
+- **5 ft rise:** Flooding expands toward shoreline neighborhoods  
+- **10 ft rise:** Significant flooding in areas including Alviso, Sunnyvale, Mountain View, Palo Alto, and NASA Ames  
 
-5 ft Sea Level Rise
-* Floodwaters begin reaching neighborhoods near the shoreline
-* Higher-risk zones appear along the Bay edge
+- Flood zones expand nonlinearly as sea levels rise, indicating increasing risk under higher scenarios  
 
-10 ft Sea Level Rise
-* Major areas including:
-  * Alviso
-  * Sunnyvale
-  * Mountain View
-  * Palo Alto
-  * NASA Ames
-  experience significant flooding
-* The South Bay shoreline shifts dramatically
- Even small sea level increases cause large nonlinear expansions of flood zones.
+## Tools
+- QGIS  
+- NOAA raster datasets  
 
-Skills Demonstrated
-1: Working with raster + vector layers
-2: Understanding CRS and spatial alignment
-3: Hazard and environmental visualization
-4: Interpreting spatial risk patterns
-5: Real-world NOAA data usage
-6: Clear communication of GIS findings
-
-This project shows:
-✔ Real spatial analysis (not just coursework)
-✔ Climate change & environmental relevance
-✔ Raster analysis and flood modeling
-✔ Scenario comparison
-✔ Professional GIS workflow
-✔ A meaningful, real-world application
+## Output
+- GIS maps visualizing flood risk  
+- Final analysis report  
 
 
 
