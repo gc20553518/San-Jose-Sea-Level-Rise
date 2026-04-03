@@ -1,4 +1,5 @@
 # San Jose Sea Level Rise Analysis (GIS Project)
+![Flood Risk Map](flood_map.png)
 
 ## Overview
 This project analyzes the projected impact of sea level rise in the San Jose / South Bay region using geospatial data.  
