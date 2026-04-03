@@ -1,12 +1,8 @@
-San Jose Sea Level Rise Analysis (GIS Project)
-Author: Guo On Chu
-Tools Used: QGIS • NOAA Sea Level Rise Data • Google Satellite Basemap
-
 # San Jose Sea Level Rise Analysis (GIS Project)
 
 ## Overview
 This project analyzes the projected impact of sea level rise in the San Jose / South Bay region using geospatial data.  
-Flood risk was modeled under multiple scenarios to understand which areas are most vulnerable.
+Flood risk was modeled under multiple scenarios to identify vulnerable areas and support spatial risk assessment.
 
 ## Data
 - NOAA Sea Level Rise raster dataset  
@@ -28,7 +24,10 @@ Flood risk was modeled under multiple scenarios to understand which areas are mo
 
 ## Tools
 - QGIS  
-- NOAA raster datasets  
+
+## Data Sources
+- NOAA Sea Level Rise raster dataset  
+- City boundary shapefiles   
 
 ## Output
 - GIS maps visualizing flood risk  
